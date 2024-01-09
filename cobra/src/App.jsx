@@ -15,7 +15,9 @@ import ShaftSpecs from './components/ShaftSpecs'
 import GripSpecs from './components/GripSpecs'
 import RelatedProducts from './components/RelatedProducts'
 import RecentlyViewed from './components/RecentlyViewed'
+import TabComponent from './components/ReviewQuestionDisplay'
 import Footer from './components/Footer'
+import Klarna from './components/Klarna'
 import './App.css'
 
 function App() {
@@ -50,6 +52,7 @@ function App() {
                 <RecentlyViewed />
                 <ReviewHeader />
                 <Footer />
+                <Klarna/>
             </>
     </>
   );
