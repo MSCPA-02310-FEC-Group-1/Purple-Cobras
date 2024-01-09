@@ -100,7 +100,7 @@ export default function Navbar() {
                         </div> 
                         <div className="navbar-start flex justify-center w-4/5 lg:w-1/5 lg:justify-start">
                             <a className="text-xl">
-                                <img src="https://cdn.shopify.com/s/files/1/0634/7833/3657/files/COBRA-logo-2023-black.svg?v=1689364201" alt="logo" className="w-28" />
+                                <img src={globoGymGolf} alt="logo" className="w-28" />
                             </a>
                         </div>
                         <div className="navbar-center hidden lg:flex justify-center w-3/5">

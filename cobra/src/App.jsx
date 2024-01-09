@@ -9,15 +9,14 @@ import Fact4 from './components/Fact4'
 import Carousel from './components/Carousel'
 import Ad from './components/Ad'
 import TechOverview from './components/TechOverview'
-import ReviewHeader from './components/ReviewHeader'
 import Specifications from './components/Specifications'
 import ShaftSpecs from './components/ShaftSpecs'
 import GripSpecs from './components/GripSpecs'
 import RelatedProducts from './components/RelatedProducts'
 import RecentlyViewed from './components/RecentlyViewed'
-import TabComponent from './components/ReviewQuestionDisplay'
+import ReviewHeader from './components/ReviewHeader'
+import ReviewQuestionDisplay from './components/ReviewQuestionDisplay'
 import Footer from './components/Footer'
-import Klarna from './components/Klarna'
 import Chat from './components/Chat'
 import './App.css'
 
@@ -52,9 +51,9 @@ function App() {
                 <RelatedProducts/>
                 <RecentlyViewed />
                 <ReviewHeader />
+                <ReviewQuestionDisplay />
                 <Footer />
                 <Chat />
-                <Klarna/>
             </>
     </>
   );
@@ -62,12 +61,3 @@ function App() {
 
 export default App
 
-//   const [modalImages, setModalImages] = useState([])
-
-//   const toggleModal = (images) => {
-//     if (modalImages.length === 0) {
-//         setModalImages(images);
-//     } else {
-//         setModalImages([]);
-//     }
-// };

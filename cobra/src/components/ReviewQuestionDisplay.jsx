@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import Questions from './Questions';
 import Reviews from './Reviews';
 
-function TabComponent() {
+function ReviewQuestionDisplay() {
     const [activeTab, setActiveTab] = useState('tab1'); // Default to the first tab
 
     return (
@@ -21,4 +21,4 @@ function TabComponent() {
     );
 }
 
-export default TabComponent;
+export default ReviewQuestionDisplay;
